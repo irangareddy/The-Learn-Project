@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D11B05A278C0C270037C349 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 1D11B059278C0C270037C349 /* Collections */; };
+		1D11B05C278C0C270037C349 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 1D11B05B278C0C270037C349 /* DequeModule */; };
+		1D11B05E278C0C270037C349 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 1D11B05D278C0C270037C349 /* OrderedCollections */; };
 		1DD79B00278839DF005B9B15 /* The_Learn_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD79AF0278839DD005B9B15 /* The_Learn_ProjectApp.swift */; };
 		1DD79B01278839DF005B9B15 /* The_Learn_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD79AF0278839DD005B9B15 /* The_Learn_ProjectApp.swift */; };
-		1DD79B02278839DF005B9B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD79AF1278839DD005B9B15 /* ContentView.swift */; };
-		1DD79B03278839DF005B9B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD79AF1278839DD005B9B15 /* ContentView.swift */; };
 		1DD79B04278839DF005B9B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD79AF2278839DE005B9B15 /* Assets.xcassets */; };
 		1DD79B05278839DF005B9B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD79AF2278839DE005B9B15 /* Assets.xcassets */; };
+		1DD79B1027883F3C005B9B15 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD79B0F27883F3C005B9B15 /* Mail.swift */; };
+		1DD79B1127883F3C005B9B15 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD79B0F27883F3C005B9B15 /* Mail.swift */; };
+		1DF75C3927883FD600D05B92 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF75C3827883FD600D05B92 /* SidebarView.swift */; };
+		1DF75C3A27883FD600D05B92 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF75C3827883FD600D05B92 /* SidebarView.swift */; };
+		1DF75C3C27885B2200D05B92 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF75C3B27885B2200D05B92 /* MailView.swift */; };
+		1DF75C3D27885B2200D05B92 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF75C3B27885B2200D05B92 /* MailView.swift */; };
+		1DF75C3F2788708700D05B92 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF75C3E2788708700D05B92 /* FolderView.swift */; };
+		1DF75C402788708700D05B92 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF75C3E2788708700D05B92 /* FolderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1DD79AF0278839DD005B9B15 /* The_Learn_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Learn_ProjectApp.swift; sourceTree = "<group>"; };
-		1DD79AF1278839DD005B9B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DD79AF2278839DE005B9B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DD79AF7278839DF005B9B15 /* The Learn Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Learn Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD79AFD278839DF005B9B15 /* The Learn Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Learn Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD79AFF278839DF005B9B15 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1DD79B0F27883F3C005B9B15 /* Mail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
+		1DF75C3827883FD600D05B92 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		1DF75C3B27885B2200D05B92 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		1DF75C3E2788708700D05B92 /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D11B05A278C0C270037C349 /* Collections in Frameworks */,
+				1D11B05C278C0C270037C349 /* DequeModule in Frameworks */,
+				1D11B05E278C0C270037C349 /* OrderedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +60,7 @@
 		1DD79AEA278839DD005B9B15 = {
 			isa = PBXGroup;
 			children = (
+				1DD79B0E27883EFF005B9B15 /* Model */,
 				1DD79AEF278839DD005B9B15 /* Shared */,
 				1DD79AFE278839DF005B9B15 /* macOS */,
 				1DD79AF8278839DF005B9B15 /* Products */,
@@ -55,7 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				1DD79AF0278839DD005B9B15 /* The_Learn_ProjectApp.swift */,
-				1DD79AF1278839DD005B9B15 /* ContentView.swift */,
+				1DF75C3E2788708700D05B92 /* FolderView.swift */,
+				1DF75C3827883FD600D05B92 /* SidebarView.swift */,
+				1DF75C3B27885B2200D05B92 /* MailView.swift */,
 				1DD79AF2278839DE005B9B15 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -78,6 +96,14 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		1DD79B0E27883EFF005B9B15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DD79B0F27883F3C005B9B15 /* Mail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +120,11 @@
 			dependencies = (
 			);
 			name = "The Learn Project (iOS)";
+			packageProductDependencies = (
+				1D11B059278C0C270037C349 /* Collections */,
+				1D11B05B278C0C270037C349 /* DequeModule */,
+				1D11B05D278C0C270037C349 /* OrderedCollections */,
+			);
 			productName = "The Learn Project (iOS)";
 			productReference = 1DD79AF7278839DF005B9B15 /* The Learn Project.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +173,9 @@
 				Base,
 			);
 			mainGroup = 1DD79AEA278839DD005B9B15;
+			packageReferences = (
+				1D11B058278C0C270037C349 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = 1DD79AF8278839DF005B9B15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,8 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DD79B02278839DF005B9B15 /* ContentView.swift in Sources */,
+				1DD79B1027883F3C005B9B15 /* Mail.swift in Sources */,
+				1DF75C3927883FD600D05B92 /* SidebarView.swift in Sources */,
+				1DF75C3F2788708700D05B92 /* FolderView.swift in Sources */,
 				1DD79B00278839DF005B9B15 /* The_Learn_ProjectApp.swift in Sources */,
+				1DF75C3C27885B2200D05B92 /* MailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DD79B03278839DF005B9B15 /* ContentView.swift in Sources */,
+				1DD79B1127883F3C005B9B15 /* Mail.swift in Sources */,
+				1DF75C3A27883FD600D05B92 /* SidebarView.swift in Sources */,
+				1DF75C402788708700D05B92 /* FolderView.swift in Sources */,
 				1DD79B01278839DF005B9B15 /* The_Learn_ProjectApp.swift in Sources */,
+				1DF75C3D27885B2200D05B92 /* MailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +492,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D11B058278C0C270037C349 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D11B059278C0C270037C349 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D11B058278C0C270037C349 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		1D11B05B278C0C270037C349 /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D11B058278C0C270037C349 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		1D11B05D278C0C270037C349 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D11B058278C0C270037C349 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DD79AEB278839DD005B9B15 /* Project object */;
 }
